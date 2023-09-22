@@ -1,12 +1,26 @@
+import './index.scss';
+
+
 export default function HomePage () {
     return(
         <div className="Box_Principal">
 
-\\cabeçario
-            <header>
-                    <img src='/assets/images/logo192.png' alt='Logo' />
-                    <img src='/assets/images/img_icon_1.png' alt='Logo' />
-                    <h1>Login</h1>
+
+            <header className="head">
+
+                    <div className='div_img'>
+                        
+                    <img className="img_1" src='/assets/images/img_icon_1.png' alt='Logo' />
+                    
+                    </div>
+
+                    <div className='div_logo'>
+
+                    <img className="img_1" src='/assets/images/logo192.png' alt='Logo' />
+                    
+                    </div>
+
+
             </header>
 
 
